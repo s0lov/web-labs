@@ -1,0 +1,180 @@
+.container {
+	width: 1347px;
+	margin: 0 auto;
+}
+
+header {
+	height: 89px;
+	background-color: #F3F0F0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Raleway;
+}
+
+.logo {
+	padding-top: 18px;
+	float: left;
+}
+
+.profile {
+	width: 60px;
+  	height: 60px;
+  	margin-top: 15px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+}
+
+.left_menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.menu li:nth-child(-n+5) {
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+
+.menu li:nth-child(-n+4) {
+	margin-top: 35px;
+}
+
+.menu li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.left_menu li {
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+
+.left_menu li:nth-child(2) {
+	margin-top: 35px;
+}
+
+.left_menu li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.li_nav {
+	margin-top: 35px;
+}
+
+.search {
+	width: 26px;
+  	height: 26px;
+  	margin-top: 30px;
+}
+
+.content {
+	height: 991px;
+}
+
+.my_sales {
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 59px;
+}
+
+.settings li select {
+	padding: .75rem 1rem;
+	
+	border-radius: 15px;
+	border: 1px solid grey;
+	margin-top: 42px;
+	margin-right: 35px;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: bold;
+	height: 69px;
+}
+
+.settings li input {
+	background: white;
+	
+	border-radius: 15px;
+	border: 1px solid grey;
+	margin-top: 42px;
+	margin-right: 35px;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: bold;
+	height: 67px;
+	padding-left: 25px;
+	padding-bottom: 0;
+}
+
+.settings {
+	margin: 0;
+	padding: 0;
+}
+
+.settings li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+.buyer {
+	width: 210px;
+}
+
+.number {
+	width: 250px;
+}
+
+.apply {
+	-webkit-appearance: none;
+	appearance: none;
+	background: #4384D0;
+	color: white;
+	margin-left: 0;
+	float: right;
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 23px;
+  width: 100%;
+  border-radius: none;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.content-table thead tr {
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.status {
+	color: #56C94C;
+}

@@ -1,0 +1,191 @@
+.container {
+	width: 1347px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 1920px;
+	margin: 0 auto;
+}
+
+header {
+	height: 89px;
+	background-color: #F3F0F0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Raleway;
+	background-color: #F3F0F0;
+}
+
+.logo {
+	padding-top: 18px;
+	float: left;
+}
+
+.profile {
+	width: 60px;
+  	height: 60px;
+  	margin-top: 15px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+}
+
+.left_menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.menu li:nth-child(-n+5) {
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+
+.menu li:nth-child(-n+4) {
+	margin-top: 35px;
+}
+
+.menu li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.left_menu li {
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+
+.left_menu li:nth-child(2) {
+	margin-top: 35px;
+}
+
+.left_menu li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.li_nav {
+	margin-top: 35px;
+}
+
+.search {
+	width: 26px;
+  	height: 26px;
+  	margin-top: 30px;
+}
+
+.poe {
+	height: 624px;
+	background: url("../img/poe_bg.png") no-repeat top / cover;
+}
+
+.poelogo {
+	text-align: center;
+	font-size: 72px;
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+	color: white;
+}
+
+.choices {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+	padding-top: 100px;
+}
+
+.choices li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	margin-left: 100px;
+}
+
+
+.operations {
+	background-color: #F3F0F0 ;
+	margin: 0 auto;
+	height: 380px;
+}
+
+.selectoption select {
+	padding: .75rem 1rem;
+	background: white;
+	
+	border-radius: 15px;
+	border: 1px solid grey;
+	margin-top: 42px;
+	margin-left: 39px;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: bold;
+	width: 384px;
+	height: 69px;
+}
+
+#contentwrapper{
+	float: left;
+	width: 100%;
+}
+
+#contentcolumn{
+	margin-left: 561px;
+}
+
+#leftcolumn{
+	float: left;
+	width: 561px; 
+	margin-left: -100%;
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 23px;
+  width: 100%;
+  border-radius: none;
+  overflow: hidden;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #F3F0F0;
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #EAEAEA;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+}
